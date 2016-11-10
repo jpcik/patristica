@@ -319,16 +319,17 @@ z-index:1001;
 right: 0pt;
 width: 5%;
 position: fixed;
+margin-top:-120pt;
 
 }
 
 
 .minimize{
-displhay:none;
+display:none;
 }
 
 .maximize{
-disoplay:block;
+display:block;
 }
 
 dd {
@@ -392,6 +393,7 @@ span.firstBig {
 }
 
 .toc {
+ display:none;
  margin:auto;}
 
 input.margin-toggle { display: none; }

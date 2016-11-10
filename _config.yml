@@ -1,17 +1,17 @@
-baseurl: /tufte-jekyll 
-title: Tufte
-subtitle: Content-centric blogging
-author: clay harmon
+baseurl: /patristica
+title: Fuentes de Patrística
+subtitle: Compendio
+author: jpcik
 simple_search: http://google.com/search
 description: A Jekyll theme for content-rich sites
-name: tufte
+name: patristica
 markdown: Kramdown
 kramdown:  
   input: GFM
   syntax_highlighter: rouge
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: rouge
-permalink: /articles/:short_year/:title
+permalink: /books/:short_year/:title
 timezone: America/New_York
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
